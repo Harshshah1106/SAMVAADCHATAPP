@@ -4,7 +4,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { User, LogOut } from 'lucide-react';
 
 function ProfileMenu() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);X`X`
   const { user, logout } = useAuth();
   const navigate = useNavigate();
 
